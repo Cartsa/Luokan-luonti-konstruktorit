@@ -3,11 +3,11 @@ namespace ElainLuokat
 {
 
 
-public class Kissa : Elain
+public class Kissa : Nisakkaat
 {
     public void Kissat()
         {
-
+            
         }
     public void Kissat(string u_nimi, int u_Ika)
        {

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace ElainLuokat
 {
-    public class Class1
+    class Linnut : Elain
     {
+        public void LuoLintu()
+        {
+
+        }
     }
 }

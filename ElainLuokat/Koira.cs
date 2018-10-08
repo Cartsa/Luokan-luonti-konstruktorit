@@ -3,7 +3,7 @@ namespace ElainLuokat
 {
 
 
-public class Koira : Elain
+public class Koira : Nisakkaat
 {
     public void Koirat()
         {
