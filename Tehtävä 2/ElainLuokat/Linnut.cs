@@ -6,12 +6,28 @@ using System.Threading.Tasks;
 
 namespace ElainLuokat
 {
-    class Linnut : Elain
+    public class Linnut : Elain
     {
-        public bool Muniminen;
-        public void LuoLintu()
+        bool Muniminen;
+        public Linnut()
         {
 
+        }
+        public void AsetaMuniminen(bool u_Munii)
+        {
+            Muniminen = u_Munii;
+        }
+        public bool PalautaMuniminen()
+        {
+            if (Muniminen)
+            {
+                Console.Write("Se munii");
+            }
+            else
+            {
+                Console.Write("Se ei muni, onko se edes lintu?");
+            }
+            return Muniminen;
         }
     }
 }

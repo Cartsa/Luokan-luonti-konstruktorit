@@ -8,10 +8,25 @@ namespace ElainLuokat
 {
     public class Nisakkaat : Elain
     {
-        public bool HengittaaIlmaa;
-        public void LuoNisakas()
+        bool SynnyttaaPoikasia;
+        public Nisakkaat()
         {
 
+        }
+        public void AsetaSynnytys(bool u_poikii)
+        {
+            SynnyttaaPoikasia = u_poikii;
+        }
+        public bool PalautaSynnytys()
+        {
+            if (SynnyttaaPoikasia)
+            {
+                Console.Write("Se synnyttää eläviä poikasia");
+            } else
+            {
+                Console.Write("Se ei synnytä eläviä poikasia, onko se edes nisäkäs?");
+            }
+            return SynnyttaaPoikasia;
         }
     }
 }
