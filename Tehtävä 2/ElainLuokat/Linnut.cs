@@ -6,9 +6,10 @@ using System.Threading.Tasks;
 
 namespace ElainLuokat
 {
-    public class Nisakkaat : Elain
+    class Linnut : Elain
     {
-        public void LuoNisakas()
+        public bool Muniminen;
+        public void LuoLintu()
         {
 
         }

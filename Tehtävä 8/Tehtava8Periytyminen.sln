@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava8Periytyminen", "Tehtava8Periytyminen\Tehtava8Periytyminen.csproj", "{4C26AB94-B9BC-4A33-9924-723ED56EED4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElainLuokat", "..\Luokan-luonti-konstruktorit\ElainLuokat\ElainLuokat.csproj", "{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C26AB94-B9BC-4A33-9924-723ED56EED4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C26AB94-B9BC-4A33-9924-723ED56EED4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C26AB94-B9BC-4A33-9924-723ED56EED4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C26AB94-B9BC-4A33-9924-723ED56EED4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6450128B-DE1E-4B0F-9C9C-79ECC1D7D9C0}
+	EndGlobalSection
+EndGlobal
