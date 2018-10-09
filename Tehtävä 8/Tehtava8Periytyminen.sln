@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.27428.2037
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava8Periytyminen", "Tehtava8Periytyminen\Tehtava8Periytyminen.csproj", "{4C26AB94-B9BC-4A33-9924-723ED56EED4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElainLuokat", "..\Luokan-luonti-konstruktorit\ElainLuokat\ElainLuokat.csproj", "{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElainLuokat", "..\Tehtävä 2\ElainLuokat\ElainLuokat.csproj", "{C7AD32C0-481A-4E4C-93CA-421FE03CD9CF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
