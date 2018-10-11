@@ -19,8 +19,15 @@ namespace Tehtava10
             Polli.asetaElaimenIka(2);
             Musti.AsetaSynnytys(true);
             Polli.AsetaMuniminen(true);
-            Console.Write("Koiran nimi on " + Musti.palautaElaimenNimi() + ", se on " + Musti.palautaElaimenIka() + " vuotta vanha ja ");
-            Musti.PalautaSynnytys();
+            string synnyttaa;
+            if (Musti.PalautaSynnytys())
+            {
+                synnyttaa = "Se synnyttää eläviä poikasia";
+            }
+            else {
+                synnyttaa = "Se ei synnytä eläviä poikasia, onko se edes nisäkäs"; 
+                 }
+            Console.Write("Koiran nimi on " + Musti.palautaElaimenNimi() + ", se on " + Musti.palautaElaimenIka() + " vuotta vanha ja " + synnyttaa);
             Console.WriteLine();
             Console.Write("Papukaijan nimi on " + Polli.palautaElaimenNimi() + ", se on " + Polli.palautaElaimenIka() + " vuotta vanha ja ");
             Polli.PalautaMuniminen();

@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Tehtävä 2\ElainLuokat\ElainLuokat.csproj">
+      <Project>{c7ad32c0-481a-4e4c-93ca-421fe03cd9cf}</Project>
+      <Name>ElainLuokat</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

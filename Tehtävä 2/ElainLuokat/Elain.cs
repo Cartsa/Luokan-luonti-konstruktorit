@@ -15,6 +15,11 @@ namespace ElainLuokat
         {
 
         }
+        public Elain(string u_nimi,int u_ika)
+        {
+            ElainNimi = u_nimi;
+            ElainIka = u_ika;
+        }
         public void asetaElaimenIka(int u_ElaimenIka)
         {
             if (u_ElaimenIka < 0)

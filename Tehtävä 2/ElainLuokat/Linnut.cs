@@ -19,14 +19,7 @@ namespace ElainLuokat
         }
         public bool PalautaMuniminen()
         {
-            if (Muniminen)
-            {
-                Console.Write("Se munii");
-            }
-            else
-            {
-                Console.Write("Se ei muni, onko se edes lintu?");
-            }
+            
             return Muniminen;
         }
     }

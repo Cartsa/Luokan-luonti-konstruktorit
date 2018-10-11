@@ -19,13 +19,6 @@ namespace ElainLuokat
         }
         public bool PalautaSynnytys()
         {
-            if (SynnyttaaPoikasia)
-            {
-                Console.Write("Se synnyttää eläviä poikasia");
-            } else
-            {
-                Console.Write("Se ei synnytä eläviä poikasia, onko se edes nisäkäs?");
-            }
             return SynnyttaaPoikasia;
         }
     }

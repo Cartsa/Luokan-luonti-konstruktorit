@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ElainLuokat
 {   //Esitellään luokka-class. Koodi olisi voinut olla Program.cs tiedostossa mutta selkeyden takia luomme jokaisen luokan omaan tiedostoonsa
-    class Hevonen : Nisakkaat
+    public class Hevonen : Nisakkaat
     {
         public string nimi;
         public int paino;
