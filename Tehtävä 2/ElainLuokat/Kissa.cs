@@ -24,7 +24,7 @@ public class Kissa : Nisakkaat
             asetaElaimenIka(u_ika);
             asetaEmo(u_emo);
         }
-        public void LisaaPentu(string u_pentunimi, int u_ika)
+        public void LisaaPentu(string u_pentunimi, int u_ika=0)
         {
             Emo = this;
             pennut.Add(new Kissa(u_pentunimi,u_ika,Emo));

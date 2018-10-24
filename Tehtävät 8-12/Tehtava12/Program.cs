@@ -15,7 +15,7 @@ namespace Tehtava12
             mirri.asetaElaimenNimi("Mirri");
             Kissa kissa = new Kissa();
             kissa.asetaElaimenNimi("Mouru");
-            kissa.LisaaPentu("Miina",0);
+            kissa.LisaaPentu("Miina");
             kissa.LisaaPentu("Manu", 1);
             kissa.LisaaPentu("Masa", 0);
             mirri.LisaaPentu("Mikke", 3);
